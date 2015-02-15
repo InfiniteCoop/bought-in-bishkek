@@ -137,7 +137,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 125px 0;
     text-align: center;
     color: #fff;
     background: url(../img/intro-bg-2.jpg) no-repeat bottom center scroll;
@@ -150,22 +150,25 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: f;
 }
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 @media(min-width:767px) {
     .intro {
         width: 100%;
         height: auto;
-        padding: 100px;
     }
 
     .intro .intro-body .brand-heading {
@@ -173,7 +176,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 18px;
         text-align: center;
     }
 }
@@ -298,10 +301,22 @@ a:focus {
 
 footer {
     padding: 50px 0;
+    text-size: 14px;
 }
 
 footer p {
     margin: 0;
+}
+
+.progress {
+    height: 1.5%;
+    background: #888;
+    z-index: 200;
+    bottom: 0;
+    position: fixed;
+    margin: 0;
+    border: 0;
+    border-radius: 0%;
 }
 
 ::-moz-selection {
