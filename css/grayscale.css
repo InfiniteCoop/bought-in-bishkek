@@ -29,13 +29,11 @@ h6 {
     letter-spacing: 1px;
 }
 
-h1 {
-        font-weight: 700;
-
-}
 p {
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
     text-align: left;
 }
@@ -43,7 +41,7 @@ p {
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 1.6;
     }
 }
@@ -165,8 +163,9 @@ a:focus {
 
 @media(min-width:767px) {
     .intro {
-        height: 100%;
-        padding: 0;
+        width: 100%;
+        height: auto;
+        padding: 100px;
     }
 
     .intro .intro-body .brand-heading {
@@ -175,6 +174,7 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+        text-align: center;
     }
 }
 
@@ -295,27 +295,6 @@ a:focus {
     background-color: #219ab3;
 }
 
-ul.banner-social-buttons {
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
-}
 
 footer {
     padding: 50px 0;
