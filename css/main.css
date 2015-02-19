@@ -34,6 +34,11 @@ p {
     text-align: left;
 }
 
+p::first-letter { 
+    font-size: 140%;
+    font-weight: 200;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
@@ -129,7 +134,7 @@ a:focus {
     }
 }
 
-.intro {
+.intro, .bcg {
     display: table;
     width: 100%;
     height: auto;
@@ -162,7 +167,7 @@ a:focus {
 }
 
 @media(min-width:767px) {
-    .intro {
+    .intro, .bcg {
         width: 100%;
         height: auto;
         padding: auto;
@@ -176,6 +181,19 @@ a:focus {
         font-size: 18px;
         text-align: center;
     }
+}
+
+#slide-1 .bcg {
+    background-image: url(../img/slide-1.jpg);
+}
+
+.slide-title {
+/*    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    padding: 125 0;*/
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .btn-circle {
