@@ -186,12 +186,12 @@ a:focus {
 #slide-1 {
     background-image: url(../img/slide-1-1.jpg);
     height: 100vh;
+
 }
 
 .slide-title {
     height: auto;
-    padding-right: 40px;
-    vertical-align: bottom;
+    padding: 25px 40px 10px 0px;
     text-align: right;
     text-shadow: 2px 2px 3px #000;
     background: rgba(0,0,0,0.4);
