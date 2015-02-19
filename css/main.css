@@ -34,9 +34,18 @@ p {
     text-align: left;
 }
 
-p::first-letter { 
+/*p::first-letter { 
     font-size: 140%;
     font-weight: 200;
+}*/
+
+blockquote {
+    font-size: 180%;
+    font-style: italic;
+    height: auto;
+    background-color: #fff;
+    border: 0;
+    padding bottom: 15px; 
 }
 
 @media(min-width:767px) {
@@ -166,6 +175,11 @@ a:focus {
     text-align: center;
 }
 
+.intro .intro-byline {
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
 @media(min-width:767px) {
     .intro, .bcg {
         width: 100%;
@@ -273,13 +287,13 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 }
 
