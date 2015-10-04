@@ -208,15 +208,15 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-/*    position: fixed;
-*/    src: ("../img/marketBasemap.png");
+    position: fixed;
+    src: ("../img/marketBasemap.png");
 }
 
 #route-svg {
     width: 100%;
     height: auto;
-/*    position: fixed;
-*/}   
+    position: fixed;
+}   
 
 #info {
   position: fixed;
