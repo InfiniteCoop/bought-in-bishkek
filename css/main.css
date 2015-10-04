@@ -39,24 +39,6 @@ p::first-letter {
     font-weight: 400;
 }
 
-#map-container {
-    height: 6000px;
-    width: 100%;
-}
-
-#map-img {
-    display: table;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    src: ("../img/marketBasemap.png");
-}
-
-
-
-
-
-
 blockquote {
     font-size: 180%;
     font-style: italic;
@@ -215,10 +197,41 @@ a:focus {
     }
 }
 
+
+
+#map-container {
+    height: 6000px;
+    width: 100%;
+}
+
+#map-img {
+    display: table;
+    width: 100%;
+    height: auto;
+/*    position: fixed;
+*/    src: ("../img/marketBasemap.png");
+}
+
+#route-svg {
+    width: 100%;
+    height: auto;
+/*    position: fixed;
+*/}   
+
+#info {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+  z-index: 9999;
+}
+
+
 #slide-1 {
     background-image: url(../img/slide-1-1.jpg);
     height: 100vh;
-
 }
 
 .slide-title {
