@@ -197,10 +197,22 @@ a:focus {
     }
 }
 
+.fixed-wrapper{
+    position: fixed;
+    top: 0;
+}
 
+.full-width {
+    width: 100vw;
+    height: auto;
+    padding: 0px;
+}
+
+#map-section {
+    height: 6000px;
+}
 
 #map-container {
-    height: 6000px;
     width: 100%;
 }
 
@@ -208,14 +220,14 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    position: fixed;
-    src: ("../img/marketBasemap.png");
+    background-image: url("../img/marketBasemap.png");
 }
 
 #route-svg {
     width: 100%;
+    display: block;
+    margin: auto;
     height: auto;
-    position: fixed;
 }   
 
 #info {
@@ -226,6 +238,12 @@ a:focus {
   color: #fff;
   padding: 20px;
   z-index: 9999;
+}
+
+#paths  {
+    fill: none;
+    stroke: #8B0003;
+    stroke-width:2;
 }
 
 
