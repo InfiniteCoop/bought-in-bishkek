@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/mainMap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -109,31 +109,20 @@
 
 
     <!-- Map Section -->
-    <section class="full-width" id="map-section">
-        <div id="map-container"
-        data-1p-top="position:relative"
-        data-0p-top="position:fixed; top:0"
+    <section id="map-section" class="container content-section text-center">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>Moving Through the Hypermarket</h2>
+        </div>
+        
+    <div id="route-svg">
 
-        data--600p-top="position:fixed; top:0"
-        data--601p-top="position:relative"
-        >
-    </div>
-
-    <div id="route-svg"
-    data-1p-top="position:relative"
-    data-0p-top="position:fixed; top:0"
-
-    data--100p-top="position:fixed; top:0"
-    data--101p-top="position:relative">
-
-    <svg version="1.1" id="PATH" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    width="100%" height="100%" viewBox="0 0 1600 1200" enable-background="new 0 0 1600 1200" xml:space="preserve">
+    <svg version="1.1" id="PATH" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1200 700" xml:space="preserve" preserveAspectRatio="xMidYMin">
+        <image xlink:href="img/marketBasemap2.png" x="0" y="0" height="100%" width="100%"/>
     <g id="paths"
         stroke-dasharray"6000"
         data-top="stroke-dashoffset:6000"
         data-6000="stroke-dashoffset:0"
         >
-
 
     <polyline 
 
@@ -166,6 +155,8 @@
     200,270 210,260 220,270 330,270 330,500 410,500 410,510 420,520 410,530 410,540 360,540 360,520 320,520 320,531.527         "/>
 </g>
 </svg>
+</div>
+</div>
 </div>
 </section>
 
