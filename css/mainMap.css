@@ -196,13 +196,8 @@ a:focus {
     }
 }
 
-.fixed-wrapper{
-    position: fixed;
-    top: 0;
-}
-
 #map-section {
-    height: 4000px;
+    height: 4200px;
 }
 
 #route-svg {
@@ -352,6 +347,27 @@ a:focus {
 }
 
 
+.path-stroke {
+    fill: none;
+    stroke-linecap: none;
+    stroke-linejoin: round;
+    opacity: 0.6;
+  background-blend-mode: multiply;
+
+}
+
+
+#outer {
+    stroke: #ff0080;
+    stroke-width: 4;
+}
+
+#inner {
+    stroke: #8B0003;
+    stroke-width: 2;
+}
+
+
 footer {
     padding: 50px 0;
     text-size: 14px;
@@ -362,8 +378,8 @@ footer p {
 }
 
 .progress {
-    height: 1.5%;
-    background: #888;
+    height: 1%;
+    background: #eee;
     z-index: 200;
     bottom: 0;
     position: fixed;
