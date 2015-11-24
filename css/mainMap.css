@@ -199,6 +199,7 @@ a:focus {
 
 #map-container {
     margin: auto;
+    padding: auto;
 }
 
 #map-captions {
